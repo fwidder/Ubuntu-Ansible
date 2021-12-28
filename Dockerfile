@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Florian Widder <florian.widder@live.de>
+LABEL MAINTAINER="Florian Widder <florian.widder@live.de>""
 
 RUN apt update
 RUN apt upgrade --yes
